@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color:#3F5D45;
+}
+.wrap{
+  max-width: 1024px;
+  padding: 0 42px;
+  margin: 30px auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.size{
+  width: 220px;
+}
+.menu{
+  display: flex;
+}
+.banner{
+  margin-bottom: 30px;
+}
+.side{
+  display: flex;
+}
